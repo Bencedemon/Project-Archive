@@ -1,0 +1,1125 @@
+{
+    "Featured": "HGmod",
+    "Games":[
+        {
+            "id": "1NaB",
+            "name": "1 Éjszaka Bencénél",
+            "state": "Upcoming",
+            "engine": "Unity",
+            "desc": "Bence’s family is away for the night and won’t return until morning. Face the horrors lurking in the dark and survive until dawn.",
+            "date": "2026",
+            "tags":[
+                { "name": "Horror" },
+                { "name": "Comedy" },
+                { "name": "First-Person" },
+                { "name": "3D" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 0
+        },
+        {
+            "id": "KchanS",
+            "name": "Kurisutofu-chan Special",
+            "state": "Upcoming",
+            "engine": "RPG Maker",
+            "desc": "Kurisutofu-chan is back with his brand-new adventure. Summer break is at the doorstep, so Kurisutofu-chan and Rákóczi-senpai are spending a romantic week at Lake Balaton.",
+            "date": "2026",
+            "tags":[
+                { "name": "Romance" },
+                { "name": "Comedy" },
+                { "name": "Adventure" },
+                { "name": "Exploration" },
+                { "name": "Visual Novel" },
+                { "name": "Top-Down" },
+                { "name": "2D" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 0
+        },
+        {
+            "id": "HGmod",
+            "name": "Stardew Valley: The Guys are here!",
+            "state": "Upcoming",
+            "engine": "SMAPI",
+            "youtube": "fWXrdACn7-U",
+            "desc": "The Guys have arrived in Pelican Town. Meet the three new villagers, get close to them, and experience their unique heart events. Discover brand-new locations, quests, items, and much more in the official Hello Guys Stardew Valley mod.",
+            "date": "2025 October",
+            "tags":[
+                { "name": "Mod" },
+                { "name": "Expansions" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 0
+        },
+        {
+            "id": "Augmantis",
+            "name": "Augmantis",
+            "state": "Prototype",
+            "engine": "Unity",
+            "desc": "Augmantis is an action stealth platformer about an escaped biology experiment. Kill enemies by dashing through them before they notice you and avoid deadly obstacles.",
+            "date": "2025 January 31",
+            "tags":[
+                { "name": "Gamejam" },
+                { "name": "Browser Game" },
+                { "name": "Stealth" },
+                { "name": "Platformer" },
+                { "name": "Side Scroller" },
+                { "name": "2D" }
+            ],
+            "links":[
+                { "name": "Itch.io", "link": "https://bencedemon.itch.io/augmantis" }
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "Plague",
+            "name": "Plague",
+            "state": "Demo",
+            "engine": "Unity",
+            "desc": "Plague is a 4 player online co-op roguelike shooter where your goal is to exterminate infected enemies in a medieval city. Kill enemies, collect their organs, and level up to gain various upgrades and abilities to aid you in the extermination.",
+            "date": "2024 July 31",
+            "tags":[
+                { "name": "Multiplayer" },
+                { "name": "Online Co-Op" },
+                { "name": "First-Person" },
+                { "name": "Shooter" },
+                { "name": "Roguelike" },
+                { "name": "3D" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1U3rwQ6EdomebXRjj7ULSIHMhWfHWEo7f/view?usp=sharing" }
+            ],
+            "screenshotCount": 10
+        },
+        {
+            "id": "Thalassophobia",
+            "name": "Thalassophobia",
+            "state": "Cancelled",
+            "engine": "Unity",
+            "desc": "You wake up on a boat in the middle of the sea, but something knocks you into the water. Now you must swim back before the creatures of the deep devour you.",
+            "date": "2024 May",
+            "tags":[
+                { "name": "Horror" },
+                { "name": "Psychological Horror" },
+                { "name": "First-Person" },
+                { "name": "3D" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 8
+        },
+        {
+            "id": "AVSG",
+            "name": "A Very Serius Game",
+            "state": "Cancelled",
+            "engine": "Unity",
+            "desc": "2043: the aliens are real, and they're here to conquer Earth. Humanity has no chance of winning the war, but maybe one victorious battle could be enough to turn the tide. In this game, you play as Bence, the lone soldier who, with his dual miniguns, stands between the aliens and the freedom of our planet.",
+            "date": "2024 May",
+            "tags":[
+                { "name": "Shooter" },
+                { "name": "Arena Shooter" },
+                { "name": "First-Person" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 0
+        },
+        {
+            "id": "Szakdolgozat",
+            "name": "Szakdolgozat",
+            "state": "Released",
+            "engine": "Unity",
+            "desc": "The subject of my thesis is the examination of memory with a VR game. The game contains 3 different tests in which the players has to rely on their short-term memory.",
+            "date": "2024 May 03",
+            "tags":[
+                { "name": "VR" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "1NaBD",
+            "name": "1 Éjszaka Bencénél",
+            "state": "Demo",
+            "engine": "Unity",
+            "desc": "Bence’s family is away for the night and won’t return until morning. Face the horrors lurking in the dark and survive until dawn.",
+            "date": "2024 January 28",
+            "tags":[
+                { "name": "Horror" },
+                { "name": "Comedy" },
+                { "name": "First-Person" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1RGSnRkAFR_dh6n7A5zb8zUTEvP7Wqfaq/view?usp=sharing" }
+            ],
+            "screenshotCount": 7
+        },
+        {
+            "id": "Protein_Quest",
+            "name": "Protein Quest",
+            "state": "Released",
+            "engine": "Unity",
+            "desc": "Help Mark and Bence in their quest to get the Legendary Pure Gold Protein Powder.",
+            "date": "2023 December 01",
+            "tags":[
+                { "name": "2D" },
+                { "name": "Platformer" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1VwgiUe5fmJvt6Yw5BTbdIBwX-0NjhW-H/view?usp=sharing" }
+            ],
+            "screenshotCount": 6
+        },
+        {
+            "id": "Polterguys",
+            "name": "Polterguys",
+            "state": "Cancelled",
+            "engine": "Unity",
+            "desc": "Polterguys is a 4 player online co-op psychological horror. The guys are dead, but their sipirts cannot find rest. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting equipment at your disposal in order to gather as much evidence as you can.",
+            "date": "2023 November",
+            "tags":[
+                { "name": "Horror" },
+                { "name": "Multiplayer" },
+                { "name": "Online Co-Op" },
+                { "name": "First-Person" },
+                { "name": "3D" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 7
+        },
+        {
+            "id": "Sacrificial",
+            "name": "Sacrificial",
+            "state": "Cancelled",
+            "engine": "Unity",
+            "desc": "You were out camping when, out of nowhere, cultists ambushed you. Now you find yourself in an underground prison, waiting to be sacrificed. They took everything from you except your knife. With it, you managed to escape, but now you must fight your way out of the cultist sanctuary.",
+            "date": "2023 August",
+            "tags":[
+                { "name": "Shooter" },
+                { "name": "Boomer Shooter" },
+                { "name": "Stealth" },
+                { "name": "First-Person" },
+                { "name": "2.5D" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 10
+        },
+        {
+            "id": "LFG",
+            "name": "Let's Fighting Guys",
+            "state": "Cancelled",
+            "engine": "Unity",
+            "desc": "Have you ever wondered which Hello Guys member would win in a fight? No? Well, I did—and now the game Let's Fighting Guys is here, where you can play as any of the Guys and fight in various locations.",
+            "date": "2023 June",
+            "tags":[
+                { "name": "2D" },
+                { "name": "2D Fighter" },
+                { "name": "Arcade" },
+                { "name": "Local Multiplayer" },
+                { "name": "PvP" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 8
+        },
+        {
+            "id": "Mansion",
+            "name": "Hello Guys és a G kúria",
+            "state": "Released",
+            "engine": "RPG Maker",
+            "youtube": "uY7kM0V74zg",
+            "desc": "Four years ago, all the residents of a mansion were brutally murdered. Rumors say that the mansion is haunted by its former inhabitants. Our four heroes—Kristóf, Isti, Bence, and Mark—decided that it would be a good idea to explore it. Unfortunately, they couldn’t enter the building. Instead, they found something worse...",
+            "date": "2023 March 31",
+            "tags":[
+                { "name": "Horror" },
+                { "name": "Puzzle" },
+                { "name": "Top-Down" },
+                { "name": "2D" }
+            ],
+            "links":[
+                { "name": "MediaFire", "link": "https://www.mediafire.com/file/za5wkhz81cssr2x/Hello_Guys_%25C3%25A9s_a_G_k%25C3%25BAria.exe/file" }
+            ],
+            "screenshotCount": 10
+        },
+        {
+            "id": "Kchan",
+            "name": "Kurisutofu-chan",
+            "state": "Released",
+            "engine": "RPG Maker",
+            "youtube": "beKiQCsom2c",
+            "desc": "Kurisutofu-chan is your avarage highschool student: diligent, exemplary, a bit of an alcoholic, and most importatly deeply in love with Rákóczi-senpai. Unfortunately, senpai hasn’t noticed him yet. But with the help of his trusted friends, Kurisutofu-chan aims to make his senpai fall in love with him.",
+            "date": "2022 August 11",
+            "tags":[
+                { "name": "Romance" },
+                { "name": "Comedy" },
+                { "name": "Adventure" },
+                { "name": "Exploration" },
+                { "name": "Visual Novel" },
+                { "name": "Top-Down" },
+                { "name": "2D" }
+            ],
+            "links":[
+                { "name": "MediaFire", "link": "https://www.mediafire.com/file/3eu9vvyia41m0bc/Kurisutofu-chan.exe/file" }
+            ],
+            "screenshotCount": 12
+        },
+        {
+            "id": "MedievalColony",
+            "name": "Medieval Colony",
+            "state": "Demo",
+            "engine": "Minecraft",
+            "desc": "Explore a medieval land, improve your skills, and travel between towns. Help the locals, complete quests, or settle down to create your own colony. Build a thriving farm and trade your crops for profit.",
+            "date": "2021 October 16",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.12.2" },
+                { "name": "Forge" },
+                { "name": "Adventure and RPG" },
+                { "name": "Exploration" },
+                { "name": "Quests" },
+                { "name": "Small/Light" }
+            ],
+            "links":[
+                { "name": "MediaFire", "link": "https://www.mediafire.com/file/eng9y3m40oz3if5/Medieval_Colony.zip/file" }
+            ],
+            "screenshotCount": 8
+        },
+        {
+            "id": "AsteroidSigns",
+            "name": "Asteroid Signs",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "Scientists have received a strange signal from the asteroid belt. You were sent there to investigate, but lost contact with Earth. Your goal is to survive this dangerous new environment and return home, all while uncovering the origins of the signal.",
+            "date": "2021 August 15",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.12.2" },
+                { "name": "Forge" },
+                { "name": "Magic" },
+                { "name": "Quests" },
+                { "name": "Sci-Fi" },
+                { "name": "Skyblock" },
+                { "name": "Tech" }
+            ],
+            "links":[
+                { "name": "CurseForge", "link": "https://www.curseforge.com/minecraft/modpacks/asteroid-signs" }
+            ],
+            "screenshotCount": 4
+        },
+        {
+            "id": "MansionD",
+            "name": "Hello Guys és a G kúria",
+            "state": "Demo",
+            "engine": "RPG Maker",
+            "desc": "Four years ago, all the residents of a mansion were brutally murdered. Rumors say that the mansion is haunted by its former inhabitants. Our four heroes—Kristóf, Isti, Bence, and Mark—decided that it would be a good idea to explore it. Unfortunately, they couldn’t enter the building. Instead, they found something worse...",
+            "date": "2021 April 08",
+            "tags":[
+                { "name": "Horror" },
+                { "name": "Puzzle" },
+                { "name": "Top-Down" },
+                { "name": "2D" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/15L3O8XmDkUItrUfV_NBvN0ZnPObChBlm/view?usp=drive_link" }
+            ],
+            "screenshotCount": 12
+        },
+        {
+            "id": "TEIR_PBTM",
+            "name": "The Earth is ruined, plan B the moon",
+            "state": "Demo",
+            "engine": "Minecraft",
+            "desc": "Earth is now unlivable. Your best option is to leave your home planet in search of a better place. You’ll have to invent everything from scratch while everything around you tries to kill you. Your ultimate goal is to build your own rocket ship and escape this wrecked world.",
+            "date": "2021 March 19",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.12.2" },
+                { "name": "Forge" },
+                { "name": "Exploration" },
+                { "name": "Quests" },
+                { "name": "Sci-Fi" },
+                { "name": "Small/Light" },
+                { "name": "Tech" }
+            ],
+            "links":[
+                { "name": "MediaFire", "link": "https://www.mediafire.com/file/uapmwukidjcjsj8/The_Earth_is_ruined%252C_plan_B_the_moon.zip/file" }
+            ],
+            "screenshotCount": 14
+        },
+        {
+            "id": "KchanD",
+            "name": "Kurisutofu-chan",
+            "state": "Demo",
+            "engine": "RPG Maker",
+            "desc": "Kurisutofu-chan is your avarage highschool student: diligent, exemplary, a bit of an alcoholic, and most importatly deeply in love with Rákóczi-senpai. Unfortunately, senpai hasn’t noticed him yet. But with the help of his trusted friends, Kurisutofu-chan aims to make his senpai fall in love with him.",
+            "date": "2021 March 18",
+            "tags":[
+                { "name": "Romance" },
+                { "name": "Comedy" },
+                { "name": "Adventure" },
+                { "name": "Exploration" },
+                { "name": "Visual Novel" },
+                { "name": "Top-Down" },
+                { "name": "2D" }
+            ],
+            "links":[
+                { "name": "MediaFire", "link": "https://www.mediafire.com/file/gcb0ekzk5biej2v/Kurisutofu-chan.zip/file" }
+            ],
+            "screenshotCount": 8
+        },
+        {
+            "id": "EFTT",
+            "name": "Echoes from The twilight",
+            "state": "Demo",
+            "engine": "Minecraft",
+            "desc": "The Overworld has been overrun by powerful monsters, forcing you to flee into the Twilight Forest dimension. Improve your combat skills, explore new magic, and gear yourself up before returning to the now-deadly Overworld.",
+            "date": "2020 November 17",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.12.2" },
+                { "name": "Forge" },
+                { "name": "Adventure and RPG" },
+                { "name": "Combat" },
+                { "name": "Exploration" },
+                { "name": "Horror" },
+                { "name": "Magic" },
+                { "name": "Small/Light" }
+            ],
+            "links":[
+                { "name": "MediaFire", "link": "https://www.mediafire.com/file/6ti4v0nttu3i6yy/Echoes_from_The_twilight_Server.zip/file" }
+            ],
+            "screenshotCount": 1
+        },
+        {
+            "id": "HG_Betweenlands",
+            "name": "HG in The Betweenlands",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "HG in The Betweenlands is a Betweenlands+ mod that aims to add extra features to the Betweenlands dimension.",
+            "date": "2020 November 07",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.12.2" },
+                { "name": "Forge" },
+                { "name": "Exploration" },
+                { "name": "Small/Light" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1jRVWy7J5Hu2FB0ttshGQl2TmmhOq5hAy/view?usp=sharing" }
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "Bencedemons_Shelters",
+            "name": "Bencedemon's Shelters",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "This mod contains dungeon structures built in a modern architectural style.",
+            "date": "2020 September 18",
+            "tags":[
+                { "name": "Mod" },
+                { "name": "1.12.2" },
+                { "name": "Forge" },
+                { "name": "MCreator" },
+                { "name": "Structures" }
+            ],
+            "links":[
+                { "name": "CurseForge", "link": "https://www.curseforge.com/minecraft/mc-mods/bencedemons-shelters" }
+            ],
+            "screenshotCount": 7
+        },
+        {
+            "id": "Pebble",
+            "name": "Pebble",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "Pebble — the only companion you’ll ever need. Craft your new friend using one stone and two sticks, and you’ll have a lifelong partner.",
+            "date": "2020 August 13",
+            "tags":[
+                { "name": "Mod" },
+                { "name": "1.12.2" },
+                { "name": "Forge" },
+                { "name": "MCreator" },
+                { "name": "Miscellaneous" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 7
+        },
+        {
+            "id": "Hello_guys_and_dimensions",
+            "name": "Hello guys and dimensions",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "This is a quickly put-together modpack, so don’t expect too much. The main attraction is the variety of dimensions.",
+            "date": "2020 June 21",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.12.2" },
+                { "name": "Forge" },
+                { "name": "Exploration" },
+                { "name": "Small/Light" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1yD9y7h5vb719lfApFYhK7FmfFaTIriVa/view?usp=sharing" }
+            ],
+            "screenshotCount": 11
+        },
+        {
+            "id": "RealLifeCraft",
+            "name": "Real Life Craft",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "Real Life Craft aims to make survival as realistic as possible. Explore a new blockless world, and watch out for hunger, thirst, and the unique new damage system.",
+            "date": "2020 May 19",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.12.2" },
+                { "name": "Forge" },
+                { "name": "Exploration" },
+                { "name": "Small/Light" },
+                { "name": "Vanilla+" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/10YN2SMvOp9lAlwuzc6NjThblSpydoyl7/view?usp=sharing" }
+            ],
+            "screenshotCount": 9
+        },
+        {
+            "id": "kovakszkaloz_modpack",
+            "name": "kovakszkaloz modpack",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "This modpack was designed for kovacskaloz’s taste — dungeons, pirates, alcohol, Shrek, and much more.",
+            "date": "2020 May 11",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.7.10" },
+                { "name": "Forge" },
+                { "name": "Adventure and RPG" },
+                { "name": "Exploration" },
+                { "name": "Magic" },
+                { "name": "Small/Light" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1xwyCCrLG_3-RnoHh_xoeVNqmE5fjM54g/view?usp=sharing" }
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "ClassCraft",
+            "name": "ClassCraft",
+            "state": "Demo",
+            "engine": "Minecraft",
+            "desc": "Choose your primary and then your secondary class. For the rest of the game, you can only use your assigned weapons and tools. The goal is to cooperate with other players to overcome your weaknesses.",
+            "date": "2020 February 02",
+            "tags":[
+                { "name": "DataPack" },
+                { "name": "1.13 - 1.14.4" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/18zLz0aUSnzfjG9u9SCFUoUHT4JLVTqJx/view?usp=sharing" }
+            ],
+            "screenshotCount": 1
+        },
+        {
+            "id": "Marks_technic",
+            "name": "Mark's technic modpack",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "A tech-oriented modpack with a hint of magic. Made for Joker (aka Mark).",
+            "date": "2019 October 30",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.7.10" },
+                { "name": "Forge" },
+                { "name": "Magic" },
+                { "name": "Exploration" },
+                { "name": "Small/Light" },
+                { "name": "Tech" }
+            ],
+            "links":[
+                { "name": "Drive (Mods)", "link": "https://drive.google.com/file/d/1CBaYarbGSY4wZB-y775LiL3G8gPPQh2M/view?usp=sharing" },
+                { "name": "Drive (Config)", "link": "https://drive.google.com/file/d/1pV_fUnbTsufF1e6jZUqjTV5PFWeqNmG1/view?usp=sharing" }
+            ],
+            "screenshotCount": 0
+        },
+        {
+            "id": "BETAprojekt",
+            "name": "BETAprojekt",
+            "state": "Demo",
+            "engine": "Minecraft",
+            "desc": "BETAproject is an experimental third-person hack-and-slash map. It was created as a prototype for a planned hack-and-slash adventure map that was never started. Although the project was ultimately abandoned, BETAproject shows what it could have become.",
+            "date": "2019 October 19",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.14.4" },
+                { "name": "Parkour" },
+                { "name": "Combat" },
+                { "name": "Dungeon" },
+                { "name": "Challenge" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1cBid1Xm7G52aY0RWWD3cJhZwyPgoVOO-/view?usp=sharing" }
+            ],
+            "screenshotCount": 7
+        },
+        {
+            "id": "Bencedemons_Modpack",
+            "name": "Bencedemon's modpack",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "An expanded version of 'Kolónia', featuring new mods with dungeons, biomes, and mobs.",
+            "date": "2019 September 07",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.6.4" },
+                { "name": "Forge" },
+                { "name": "Magic" },
+                { "name": "Exploration" },
+                { "name": "Small/Light" },
+                { "name": "Tech" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1LAcj2APk3NUcmD6H-YhYC9NILRBIzcIj/view?usp=sharing" }
+            ],
+            "screenshotCount": 6
+        },
+        {
+            "id": "Exhibition",
+            "name": "Exhibition",
+            "state": "Prototype",
+            "engine": "CSGO",
+            "desc": "The terrorists are targeting the local art exhibition, attempting to destroy priceless works on display. Counter-Terrorists must secure the building and prevent the attack. The map is inspired by the cultural center in my hometown.",
+            "date": "2019 August 19",
+            "tags":[
+                { "name": "Map" },
+                { "name": "Arms Race" },
+                { "name": "Classic" },
+                { "name": "Deathmatch" },
+                { "name": "Demolition" },
+                { "name": "Custom" }
+            ],
+            "links":[
+                { "name": "Steam", "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=1839414054" }
+            ],
+            "screenshotCount": 3
+        },
+        {
+            "id": "Tower",
+            "name": "Tower",
+            "state": "Demo",
+            "engine": "CSGO",
+            "desc": "A Wingman map set in Hungary, inspired by the iconic Pécs TV Tower. Battle for control high in the Mecsek Mountains.",
+            "date": "2018 October 13",
+            "tags":[
+                { "name": "Map" },
+                { "name": "Wingman" }
+            ],
+            "links":[
+                { "name": "Steam", "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538053789" }
+            ],
+            "screenshotCount": 12
+        },
+        {
+            "id": "Parkour_zone",
+            "name": "Parkour zone",
+            "state": "Prototype",
+            "engine": "Minecraft",
+            "desc": "Parkour Zone was made to revolutionize Minecraft parkour — or at least introduce something new. Sliding, wall-running, and much more...",
+            "date": "2018 July 23",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.12.2" },
+                { "name": "Vanilla" },
+                { "name": "Parkour" },
+                { "name": "Challenge" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 7
+        },
+        {
+            "id": "Airport",
+            "name": "Airport",
+            "state": "Prototype",
+            "engine": "CSGO",
+            "desc": "Terrorists have overtaken the local airport and are holding hostages inside the control rooms. Counter-Terrorists must infiltrate the building, secure the hostages, and retake control of the facility. The entire airport is your battlefield — from crowded terminals to the open runway.",
+            "date": "2018 June 22",
+            "tags":[
+                { "name": "Map" },
+                { "name": "Classic" },
+                { "name": "Deathmatch" },
+                { "name": "Custom" },
+                { "name": "Training" },
+                { "name": "Flying Scoutsman" }
+            ],
+            "links":[
+                { "name": "Steam", "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=1419165927" }
+            ],
+            "screenshotCount": 16
+        },
+        {
+            "id": "egyperces",
+            "name": "Egy végtelen történet",
+            "state": "Released",
+            "engine": "Minecraft",
+            "youtube": "cCfMnPpfdvs?si=BWMHEdPRcXELqKAx&amp;start=843",
+            "desc": "This map was created by kovacskaloz and me for Csabusa’s Egypercesek 2 YouTube series.",
+            "date": "2018 June 15",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "Egypercesek" },
+                { "name": "1.12.2" },
+                { "name": "Story" },
+                { "name": "Fantasy" }
+            ],
+            "links":[
+                { "name": "MediaFire", "link": "https://www.mediafire.com/file/aylllyh4ao10l60/egyperces.zip/file" },
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1gOntwxxPz_8d15LvZBJQDeKAcuWKrEN3/view?usp=sharing" }
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "cimerezes4",
+            "name": "A színtelen rubikkocka legendája",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "This map was made for Chabinho’s Címerezés YouTube series. Unfortunately, this map didn’t make it into the video. The story of this map is a continuation of 'A hagymásbab fellázad'.",
+            "date": "2018 March 11",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "CÍMEREZÉS" },
+                { "name": "1.12.2" },
+                { "name": "Puzzle" },
+                { "name": "Story" },
+                { "name": "Boss Battle" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1AVLwKZR6g1lq6jsX_qdjXEhgdYKWPa44/view?usp=sharing" }
+            ],
+            "screenshotCount": 7
+        },
+        {
+            "id": "Fagyhalal",
+            "name": "Fagyhalál",
+            "state": "Demo",
+            "engine": "Minecraft",
+            "desc": "The new Ice Age has arrived, and it’s more brutal than ever before. Humanity believed that the only way to survive was to enter hibernation. But one day, you were awakened from cryosleep for maintenance. During your repairs, you came across something truly terrifying...",
+            "date": "2018 March 09",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.12.2" },
+                { "name": "Vanilla" },
+                { "name": "Puzzle" },
+                { "name": "Horror" },
+                { "name": "Story" },
+                { "name": "Exploration" },
+                { "name": "Combat" },
+                { "name": "Sci-Fi" },
+                { "name": "Survival Horror" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "cimerezes3",
+            "name": "A bolond kígyó új cipője",
+            "state": "Released",
+            "engine": "Minecraft",
+            "youtube": "vIH2JbP9tyM?si=iexEpSkYhYEH41qX&amp;start=865",
+            "desc": "This map was made for Chabinho’s Címerezés YouTube series. Your story begins long before our era, when there were still very few people. You and your friend, the Crazy Snake, lived together in a small village (which was considered large at the time). Since there were no other people living there, you don’t have a name — you’re simply called Human.",
+            "date": "2018 February 11",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "CÍMEREZÉS" },
+                { "name": "1.12.2" },
+                { "name": "Story" },
+                { "name": "Open World" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1B9kWg0f5q_Dv9HT2SigJRHFgAhBA67pw/view?usp=sharing" }
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "cimerezes2",
+            "name": "A hagymásbab fellázad",
+            "state": "Released",
+            "engine": "Minecraft",
+            "youtube": "mmzDKi6TJag?si=ZYVSdVgIv9WwHQXo&amp;start=57",
+            "desc": "This map was made for Chabinho’s Címerezés YouTube series. You are Chabinho, and after getting home from work, you were pretty hungry — so you decided to make some Western Beans for dinner. Your story begins here.",
+            "date": "2018 January 21",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "CÍMEREZÉS" },
+                { "name": "1.12.2" },
+                { "name": "Puzzle" },
+                { "name": "Story" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1CyGTzFXnuBWzz7i60k1FRBrqKyYV4kQG/view?usp=sharing" }
+            ],
+            "screenshotCount": 6
+        },
+        {
+            "id": "ZSM",
+            "name": "Zsidomon",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "Your dream has always been to become the best Jew Master. You’ve just turned 16, and now you can finally have your own jew.",
+            "date": "2018 January 13",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.12.2" },
+                { "name": "Vanilla" },
+                { "name": "Story" },
+                { "name": "Quest" },
+                { "name": "Exploration" },
+                { "name": "Combat" },
+                { "name": "Open World" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 6
+        },
+        {
+            "id": "cimerezes1",
+            "name": "Hull a retkes fehér ló",
+            "state": "Released",
+            "engine": "Minecraft",
+            "youtube": "JcU00uOqGHg?si=5YNIsHeGe8KPvgvx&amp;start=1222",
+            "desc": "This map was made for Chabinho’s Címerezés YouTube series. You’re a maintenance worker employed by Santa Claus. During Christmas time, machines and tools sometimes break down — and it’s your job to fix them. This year, you’ve just finished your work when… your story begins here.",
+            "date": "2017 December 11",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "CÍMEREZÉS" },
+                { "name": "1.12.2" },
+                { "name": "Puzzle" },
+                { "name": "Story" },
+                { "name": "Open World" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/1J9G6v6ba-7QlzCblgfqlWlXfzTkjIsfm/view?usp=sharing" }
+            ],
+            "screenshotCount": 7
+        },
+        {
+            "id": "Colony",
+            "name": "Kolónia",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "The first modpack I’ve ever made! Create your own colony and explore this bizarre new world.",
+            "date": "2017 November 24",
+            "tags":[
+                { "name": "ModPack" },
+                { "name": "1.6.4" },
+                { "name": "Forge" },
+                { "name": "Magic" },
+                { "name": "Exploration" },
+                { "name": "Small/Light" },
+                { "name": "Tech" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 1
+        },
+        {
+            "id": "Vacuum",
+            "name": "Porszívó",
+            "state": "Demo",
+            "engine": "Minecraft",
+            "desc": "This is a one-command creation. After activating it, throw a carrot on a stick and a daylight sensor on the ground to summon a vacuum. The vacuum will roam the world and collect dropped items for you.",
+            "date": "2017 September 22",
+            "tags":[
+                { "name": "One-Command Creation" },
+                { "name": "1.10.2" },
+                { "name": "Vanilla" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 1
+        },
+        {
+            "id": "Fogocska",
+            "name": "Fogócska",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "Fogócska is a minigame with two game modes. In the first mode (1v1 or 2v2), one team controls monsters that must catch the other team in a labyrinth. The second mode is 1vAll, where a single player hunts down everyone else in the maze.",
+            "date": "2017 September 02",
+            "tags":[
+                { "name": "Minigame" },
+                { "name": "1.9.4" },
+                { "name": "Maze" },
+                { "name": "Multiplayer" },
+                { "name": "PvP" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 11
+        },
+        {
+            "id": "Fogocska2",
+            "name": "Fogócska 2",
+            "state": "Prototype",
+            "engine": "Minecraft",
+            "desc": "Fogócska 2 is a minigame with two game modes. In the first mode (1v1 or 2v2), one team controls monsters that must catch the other team in a labyrinth. The second mode is 1vAll, where a single player hunts down everyone else in the maze. NOTE: This is an unfinished upgrade of the first game made for a newer Minecarft version.",
+            "date": "2017 September 01",
+            "tags":[
+                { "name": "Minigame" },
+                { "name": "1.12.1" },
+                { "name": "Maze" },
+                { "name": "Multiplayer" },
+                { "name": "PvP" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 2
+        },
+        {
+            "id": "Rulett",
+            "name": "Minecraft rulett",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "Rulett is a simple Russian roulette-style minigame. Everyone gets a bow and arrow — one unlucky shot means instant death.",
+            "date": "2017 August 26",
+            "tags":[
+                { "name": "Minigame" },
+                { "name": "1.9.4" },
+                { "name": "Multiplayer" },
+                { "name": "PvP" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 0
+        },
+        {
+            "id": "Mission",
+            "name": "Hardcore mission",
+            "state": "Demo",
+            "engine": "Minecraft",
+            "desc": "A city has been overrun by enemy soldiers. You and your team were sent there to deal with them. Are you ready for this seemingly impossible mission?",
+            "date": "2017 August 08",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.10.2" },
+                { "name": "Vanilla" },
+                { "name": "Survival" },
+                { "name": "Exploration" },
+                { "name": "Combat" },
+                { "name": "Open World" },
+                { "name": "Challenge" },
+                { "name": "Multiplayer" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "PortalPVP",
+            "name": "Portal PVP",
+            "state": "Prototype",
+            "engine": "Minecraft",
+            "desc": "Portal PVP is a failed server experiment, but I think it’s playable... maybe? I never tested it in multiplayer, so who knows?",
+            "date": "2017 August 04",
+            "tags":[
+                { "name": "Minigame" },
+                { "name": "1.10.2" },
+                { "name": "Modded" },
+                { "name": "Multiplayer" },
+                { "name": "PvP" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 10
+        },
+        {
+            "id": "TDmod",
+            "name": "TenaciousD mod",
+            "state": "Prototype",
+            "engine": "Minecraft",
+            "desc": "This mod will surely rock your socks off! Experience Tenacious D in The Pick of Destiny in Minecraft, made by the legendary TD fans kovacskaloz and Bencedemon. NOTE: This mod does not include Jack Black or Kyle Gass.",
+            "date": "2017 June 30",
+            "tags":[
+                { "name": "Mod" },
+                { "name": "1.7.10" },
+                { "name": "Forge" },
+                { "name": "MCreator" },
+                { "name": "Armor, Tools, and Weapons" },
+                { "name": "Food" },
+                { "name": "Magic" },
+                { "name": "Biomes" },
+                { "name": "Mobs" },
+                { "name": "Ores and Resources" }
+            ],
+            "links":[
+                { "name": "MediaFire", "link": "https://www.mediafire.com/file/pm3jhzqtskaps5y/TenaciousD_mod.jar/file" }
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "Hoemod",
+            "name": "Hoe mod",
+            "state": "Prototype",
+            "engine": "Minecraft",
+            "desc": "Do you also think hoes are the best tools in Minecraft? Now you have even more, each with unique properties and effects. Everyone can find their favorite hoe. NOTE: The current version only includes three.",
+            "date": "2017 June",
+            "tags":[
+                { "name": "Mod" },
+                { "name": "1.7.10" },
+                { "name": "Forge" },
+                { "name": "MCreator" },
+                { "name": "Tools" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 1
+        },
+        {
+            "id": "Gyilkos",
+            "name": "Ki a gyilkos?",
+            "state": "Demo",
+            "engine": "Minecraft",
+            "desc": "Solve various murder cases in unique locations with your partner. NOTE: This demo only contains one case.",
+            "date": "2017 May 28",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.7.10" },
+                { "name": "Vanilla" },
+                { "name": "Co-op" },
+                { "name": "Multiplayer" },
+                { "name": "Mystery" },
+                { "name": "Detective" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 10
+        },
+        {
+            "id": "REPA",
+            "name": "RÉPA",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "You were just an average farmer. One fateful day, the earth opened beneath you while you were working in your carrot field. You found yourself in a cave, where you discovered a giant talking carrot?! He asked for your help, and you followed him into his home dimension.",
+            "date": "2017 March 12",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.6.4" },
+                { "name": "Modded" },
+                { "name": "Parkour" },
+                { "name": "Story" },
+                { "name": "Quest" },
+                { "name": "Combat" },
+                { "name": "Fantasy" },
+                { "name": "Boss Battle" }
+            ],
+            "links":[
+                { "name": "Drive", "link": "https://drive.google.com/file/d/0B8_exFfVvV9nNlBqLTZiWmFaMlE/view?usp=sharing&resourcekey=0-P2hfb2LI6ktoh_FDYn2EvQ" }
+            ],
+            "screenshotCount": 22
+        },
+        {
+            "id": "BortonOther",
+            "name": "Börtön",
+            "state": "Prototype",
+            "engine": "Minecraft",
+            "desc": "In this map, you are a bank robber who got caught and transported to a high-security prison. Your goal is to escape — you’ll need to build up your reputation with inmates, learn the guards’ schedule, map out the building, and plan your escape. NOTE: This version only contains the bank robbery part. No prison, sorry!",
+            "date": "2017 February 12",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.10" },
+                { "name": "Escape" },
+                { "name": "Stealth" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 5
+        },
+        {
+            "id": "Crazy",
+            "name": "ŐRŰLLLT",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "Well... I don’t want to talk about it. Let’s just say you were eaten, and that’s it, nothing else... yeah... Look, I was young — we all make bad decisions.",
+            "date": "2016 December 02",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.7.10" },
+                { "name": "Vanilla" },
+                { "name": "Parkour" },
+                { "name": "Maze" },
+                { "name": "Combat" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 7
+        },
+        {
+            "id": "REPAv1",
+            "name": "RÉPA",
+            "state": "Prototype",
+            "engine": "Minecraft",
+            "desc": "You were just an average farmer. One fateful day, the earth opened beneath you while you were working in your carrot field. You found yourself in a cave, where you discovered a giant talking carrot?! He asked for your help, and you followed him into his home dimension.",
+            "date": "2016 August 06",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.6.4" },
+                { "name": "Modded" },
+                { "name": "Parkour" },
+                { "name": "Story" },
+                { "name": "Quest" },
+                { "name": "Combat" },
+                { "name": "Fantasy" },
+                { "name": "Boss Battle" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 13
+        },
+        {
+            "id": "Szokes",
+            "name": "Szökés",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "You are trapped in a mansion estate. Look for hidden levers, doors, and passages, and survive deadly traps to find the eight hidden keys.",
+            "date": "2016 July 12",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.6.4" },
+                { "name": "Modded" },
+                { "name": "Parkour" },
+                { "name": "Escape" },
+                { "name": "Maze" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 9
+        },
+        {
+            "id": "Borton",
+            "name": "Börtön",
+            "state": "Released",
+            "engine": "Minecraft",
+            "desc": "The first Minecraft adventure map I’ve ever made. You are a prisoner who, after finding a hidden note from a previous inmate, uncovers a secret path full of trials leading to your freedom.",
+            "date": "2016 June 28",
+            "tags":[
+                { "name": "Adventure Map" },
+                { "name": "1.6.4" },
+                { "name": "Vanilla" },
+                { "name": "Parkour" },
+                { "name": "Escape" },
+                { "name": "Combat" }
+            ],
+            "links":[
+            ],
+            "screenshotCount": 11
+        }
+    ]
+}

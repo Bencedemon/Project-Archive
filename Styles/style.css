@@ -1,0 +1,609 @@
+:root {
+    --card-max-width: 1000px;
+    --card-bg: rgba(34,34,34,0.85);
+    --card-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1
+}
+
+header {
+    background: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+h1 { margin: 0; }
+
+/* Header controls */
+.header-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Links */
+.header-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.header-links a {
+    color: #4da3ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+/* Search bar */
+.search-bar {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    padding: 6px 28px 6px 12px; /*DO NOT TOUCH IT!!!*/
+    box-sizing: border-box;
+    margin: 0 auto; 
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    background: #1e1e1e;
+    color: #f5f5f5;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    display: block;
+    margin: 0 auto;
+}
+
+#clear-search {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+
+    background: linear-gradient(135deg, #444, #222);
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+#clear-search.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+#clear-search:hover {
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+    box-shadow: 0 0 6px rgba(255,152,0,0.6);
+}
+
+.no-results {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ccc;
+    background: rgba(34,34,34,0.8);
+    border-radius: 10px;
+    max-width: var(--card-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+
+    box-shadow: 0 0 16px rgba(0,0,0,0.6);
+}
+
+.no-results-icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #888;
+}
+
+.no-results-text {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #bbb;
+}
+
+/* Sort bar */
+.sort-bar {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+/* Label */
+.sort-label {
+    font-weight: bold;
+    color: #fff;
+    pointer-events: none;
+}
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    padding: 8px 16px;
+    background: #1e1e1e;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    min-width: 150px;
+}
+.dropdown-btn:hover {
+    background: #2a2a2a;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background: #1e1e1e;
+    border-radius: 10px;
+    list-style: none;
+    margin: 5px auto 0;
+    padding: 5px 0;
+    min-width: 100%;
+    overflow: hidden;
+    z-index: 10;
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+.dropdown-list li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dropdown-list li:hover {
+    background: #333;
+}
+
+/* Filter button */
+.filter-bar {
+    text-align: center;
+}
+
+.filter-toggle {
+    padding: 8px 16px;
+    background: #1e1e1e;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.filter-toggle:hover {
+    background: #2a2a2a;
+}
+
+/* Filter panel */
+.filter-panel {
+    display: none;
+    margin: 0px auto 15px;
+    max-width: 700px;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+.filter-panel.active {
+    display: block;
+}
+
+/* Categories inside panel */
+.filter-category {
+    margin-bottom: 15px;
+}
+
+.filter-category strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: #ccc;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-options label {
+    background: #2a2a2a;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    color: #f5f5f5;
+    user-select: none;
+    transition: background 0.2s, color 0.2s;
+    display: inline-block;
+}    
+
+.filter-options label:hover {
+    background: #444;
+}
+
+/* Hide native checkbox */
+.filter-options input {
+    display: none;
+}
+
+/* Active state (checked) → whole pill changes */
+.filter-options input:checked + label {
+    background: #fff;
+    color: #000;
+}
+
+/* Apply button */
+.filter-actions {
+    text-align: right;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.filter-apply,
+.filter-clear {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.filter-apply {
+    background: #4da3ff;
+    color: #fff;
+}
+
+.filter-apply:hover {
+    background: #368be0;
+}
+
+.filter-clear {
+    background: #2a2a2a;
+    color: #f5f5f5;
+}
+
+.filter-clear:hover {
+    background: #444;
+}
+
+/* Main stack */
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    max-width: var(--card-max-width);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* ===== FULL-BLEED WRAPPER ====
+    This wrapper sits inside the centered .projects column but
+    uses negative margins to stretch the background to full viewport width.
+    The actual card (.project) stays centered and constrained.
+*/
+.project-bleed {
+    position: relative;
+    /* make this element full viewport width while inside a centered container */
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    width: 100vw;
+    padding: 30px 0; /* vertical spacing for the background */
+    box-sizing: border-box;
+    overflow: visible; /* let things like hover pop out */
+}
+
+/* The blurred full-bleed background */
+.project-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(18px) brightness(0.6) saturate(0.9);
+    transform: scale(1.05); /* avoid visible edges after blur */
+    z-index: 0;
+    pointer-events: none;
+}
+
+.project-bg::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+    to bottom,
+    rgba(18,18,18,1) 0%,     /* solid blend into site bg at top */
+    rgba(18,18,18,0) 15%,    /* fade into transparent */
+    rgba(18,18,18,0) 85%,    /* stay transparent in the middle */
+    rgba(18,18,18,1) 100%    /* fade back to solid at bottom */
+    );
+    pointer-events: none; /* don’t block clicks */
+    z-index: 1;           /* sits above the blurred image */
+}
+
+/* The actual card that sits above the blurred image */
+.project {
+    position: relative;
+    z-index: 1;
+    max-width: var(--card-max-width);
+    margin: 0 auto;
+    background: var(--card-bg);
+    border-radius: var(--card-radius);
+    box-shadow: 0 0 16px rgba(0,0,0,0.6);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+/* Title row */
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.project-header img { height: 40px; width: auto; }
+
+.project-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-video { flex: 1 1 320px; }
+.project-video iframe {
+    width: 100%;
+    height: 270px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.project-details {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-details p {
+    margin: 8px 0 6px;
+}
+
+.release-date {
+    color: #aaa;  /* gray */
+    font-size: 0.9em;
+    margin: -2px 0 6px;
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;}
+.tag { background: #444; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; }
+
+.links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #4ea3ff; /* blue */
+    text-decoration: none;
+}
+.links a:hover { text-decoration: underline; }
+
+.game-state {
+    font-size: 0.9em;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+/* Variants by state */
+.game-state.Demo {
+    color: #4da3ff; /* blue */
+}
+
+.game-state.Prototype {
+    color: #ffa64d; /* orange */
+}
+
+.game-state.Released {
+    color: #4dff88; /* green */
+}
+
+.game-state.Cancelled {
+    color: #ff4d4d; /* red */
+}
+
+.game-state.Upcoming {
+    color: #d6c94d; /* yellow */
+}
+
+/* Screenshots row - horizontal scroll */
+.screenshots {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: visible;
+    padding: 10px 5px 10px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.screenshots img {
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    transform-origin: center top;
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+}
+
+/* Hover zoom */
+.screenshots img:hover {
+    transform: scale(1.05);
+    /*box-shadow: 0 4px 10px rgba(0,0,0,0.6);*/
+    z-index: 2;
+}
+
+/* scrollbar styling (webkit) */
+.screenshots::-webkit-scrollbar { height: 8px; }
+.screenshots::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+.screenshots::-webkit-scrollbar-track { background: transparent; }
+
+footer {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+a { color: #4ea3ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* SMALLER DEVICES */
+@media (max-width: 720px) {
+    .project-video iframe { height: 200px; }
+    .screenshots img { height: 84px; }
+    .project { padding: 16px; }
+    .project-bleed { padding: 18px 0; }
+}
+
+.image-viewer-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.image-viewer-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image-viewer-content img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.viewer-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.viewer-btn:hover {
+    background: rgba(77,163,255,0.8); /* blue glow */
+    transform: translateY(-50%) scale(1.1); /* slight grow */
+    box-shadow: 0 0 12px rgba(77,163,255,0.7);
+}
+
+.viewer-btn.prev {
+    left: -60px;
+}
+
+.viewer-btn.next {
+    right: -60px;
+}
+
+/* Featured badge */
+.featured-badge {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-top: -2px;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+/* Featured card subtle highlight */
+.project-bleed.featured .project {
+    border: 2px solid #ff9800; /* yellow glow */
+    box-shadow: 0 0 15px rgba(255,152,0,0.4);
+}
